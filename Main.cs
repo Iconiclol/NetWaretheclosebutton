@@ -47,7 +47,7 @@ namespace NetWare
             // display window
             if (Menu.displayWindow)
             {
-                Menu.windowRect = GUI.Window(0, Menu.windowRect, BuildMenu, "<b>Net<color=red>Ware</color></b>", "Box");
+                Menu.windowRect = GUI.Window(0, Menu.windowRect, BuildMenu, "<b>Ico<color=red>nic</color></b>", "Box");
             }
         }
 
