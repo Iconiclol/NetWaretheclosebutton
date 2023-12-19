@@ -17,7 +17,7 @@ namespace NetWare
             int windowHeight = 515;
 
             int windowX = 200;
-            int windowY = ((Screen.height / 2) - (windowHeight / 2));
+            int windowY = ((Screen.height / 3) - (windowHeight / 3));
 
             // window position and size
             Menu.windowRect = new Rect(windowX, windowY, windowWidth, windowHeight);
@@ -32,7 +32,7 @@ namespace NetWare
             Exploits.Execute();
             
             // toggle window
-            if (Input.GetKeyDown(KeyCode.Insert))
+            if (Input.GetKeyDown(KeyCode.RightAlt))
             {
                 Menu.displayWindow = !Menu.displayWindow;
             }
